@@ -1,0 +1,32 @@
+.thumbnails {
+  grid-area: thumbnails;
+}
+.image {
+  grid-area: image;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.thumbnails div {
+  padding: 5px;
+  border: solid 3px transparent;
+  transition: all 0.5s linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumbnails div.selected {
+  border: solid 3px yellowgreen;
+}
+
+.thumbnails img {
+  max-width: 100px;
+  max-height: 60px;
+}

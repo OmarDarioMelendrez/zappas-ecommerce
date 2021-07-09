@@ -1,0 +1,43 @@
+.main_layout {
+  grid-template-columns: 200px auto;
+}
+.orders{
+  width: 100%;
+  padding: 10px;
+}
+.orders__table {
+  display: flex;
+  width: 100%;
+  flex-direction: column; 
+  margin-top: 15px;
+  border: 1px solid grey;
+}
+.order__header{
+  background-color: #000;
+  color: #FFF;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: auto; 
+  gap: 0px 0px; 
+  border: 1px solid #000;
+}
+.order__row{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: auto; 
+  gap: 0px 0px; 
+}
+.order__title {
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.order__item {
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}

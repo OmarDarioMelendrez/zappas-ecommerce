@@ -1,0 +1,26 @@
+.admin_panel nav ul {
+	margin: 5px;
+	list-style-type: none;
+	display: flex;
+}
+
+.admin_panel nav ul li {
+	padding: 10px;
+	color: black;
+	font-weight: 800;
+	margin: 5px;
+	border-radius: 5px;
+}
+
+.admin_panel nav ul li svg {
+	margin-left: 15px
+}
+
+.admin_panel nav ul a li {
+	font-weight: 400;
+	background: black;
+	padding: 10px;
+	color: white;
+	margin: 5px;
+	border-radius: 5px;
+}

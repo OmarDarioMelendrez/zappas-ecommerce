@@ -1,0 +1,28 @@
+.userList {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+.userList li {
+  border-bottom: 1px solid grey;
+  padding: 10px;
+}
+
+.userList li a {
+  margin: 5px;
+  padding: 5px;
+  background: black;
+  color: white;
+}
+
+.userList li button {
+  margin: 5px;
+  padding: 5px;
+  background: yellowgreen;
+  border: none;
+}
+
+.userList li button:hover {
+  cursor: pointer;
+}

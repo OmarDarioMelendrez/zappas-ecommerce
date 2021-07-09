@@ -1,0 +1,17 @@
+.categoryList {
+	list-style-type: none;
+	margin: 10px;
+	padding: 10px;
+}
+
+.categoryList li {
+	border-bottom: 1px solid grey;
+	padding:10px;
+}
+
+.categoryList li a {
+	margin:5px;
+	padding:5px;
+	background: black;
+	color: white;
+}

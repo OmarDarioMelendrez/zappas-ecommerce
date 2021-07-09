@@ -1,0 +1,83 @@
+.login_layout {
+  justify-content: center;
+  align-items: center;
+}
+
+.login_layout ul {
+  list-style-type: none;
+}
+
+#form_wrapper {
+  margin: 100px;
+  border-radius: 10px;
+  background: black;
+  height: min-content;
+  color: white;
+  overflow: hidden;
+}
+
+#form_wrapper form {
+  width: 300px;
+  margin: 30px;
+  text-align: center;
+}
+#form_wrapper form input {
+  font-size: 16px;
+  width: 100%;
+  color: white;
+  border: 2px solid yellowgreen;
+  background: black;
+  padding: 6px;
+  margin: 4px;
+}
+
+#form_wrapper form h3 {
+  font-size: 50px;
+  color: white;
+  color: transparent;
+  -webkit-text-stroke: 2px white;
+  font-weight: 800;
+}
+
+#form_wrapper button {
+  background: yellowgreen;
+  border: none;
+  margin: 10px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  text-shadow: 0px 1px 2px black;
+}
+
+#form_wrapper nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+#form_wrapper nav div {
+  display: grid;
+  justify-content: center;
+  padding: 15px;
+}
+
+#form_wrapper nav a {
+  color: grey;
+}
+
+#form_wrapper nav div.active {
+  color: white;
+}
+
+#form_wrapper nav div.active {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 50%,
+    rgb(75, 102, 21) 100%
+  );
+}
+.button__admin {
+  margin: 0 auto;
+}

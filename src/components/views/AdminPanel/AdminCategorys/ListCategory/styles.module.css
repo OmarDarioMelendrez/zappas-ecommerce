@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+.categoryList {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+.categoryList li {
+  border-bottom: 1px solid grey;
+  padding: 10px;
+}
+
+.span {
+  margin: 5px;
+  padding: 5px;
+}
+
+.categoryList li button {
+  margin: 5px;
+  padding: 5px;
+  background: yellowgreen;
+  color: white;
+  border: none;
+}

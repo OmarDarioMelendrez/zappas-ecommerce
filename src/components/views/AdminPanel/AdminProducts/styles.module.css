@@ -1,0 +1,139 @@
+.models {
+	margin: 0 10px;
+}
+
+.single_model {
+	margin: 0 5px 5px 5px;
+	border-bottom: 1px solid grey;
+	display: grid;
+	grid-template-columns: max-content 1fr;
+}
+
+.single_model_new {
+	padding: 5px;
+	background: yellowgreen;
+	margin: 10px;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-template-rows: repeat(5, min-content);
+	gap: 5px;
+	padding: 20px;
+}
+
+.model_images {
+	padding: 5px;
+}
+
+.single_image {
+	display: grid;
+	grid-template-columns: 50px min-content auto;
+}
+
+.single_image img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.product_form_section textarea {
+	height: 200px;
+	width: 100%;
+	resize: none;
+}
+
+.product_form_section {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-template-rows: repeat(4, min-content);
+	gap: 10px;
+}
+
+.product_form_section div:nth-child(2n-1) {
+	text-align: right;
+	margin: 0 5px 0px 10px;
+}
+
+.full_form {
+	display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-template-rows: 1fr 1fr;
+	gaps: 10px;
+}
+
+.product_model_form {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-template-rows: repeat(5, min-content);
+	gap: 10px;
+	margin: 15px;
+}
+
+.model_details {
+	background: #aaa;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	margin: 6px;
+	margin-right: 20px;
+}
+
+.product_model_form div:nth-child(2n-1) {
+	text-align: right;
+	margin: 0 5px 0px 10px;
+}
+
+
+.crud_product_wrapper input[type='button'] {
+	padding: 5px;
+	background: yellowgreen;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+
+.crud_product_wrapper input[type='submit'] {
+	padding: 5px;
+	background: yellowgreen;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+
+
+.add_model_btn {
+	margin: 10px;
+	padding: 10px;
+	background: yellowgreen;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+
+.add_model_btn:hover {
+	cursor:pointer
+}
+
+input.remove_btn {
+	background: red!important;
+}
+
+input.remove_img_btn {
+	background: red!important;
+	color: white !important;
+	padding: 2px 10px !important;
+	margin-left: 5px;
+}
+
+.add_model_btn {
+	cursor: pointer;
+}
+.crud_product_wrapper input[type='button']:hover {
+	cursor: pointer;
+}
+
+.crud_product_wrapper input[type='submit']:hover {
+	cursor: pointer;
+}
+
+.crud_product_wrapper h1 {
+	margin: 20px;
+}

@@ -1,0 +1,55 @@
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 15px;
+}
+.orderList {
+  display: flex;
+  margin: 20px 20px 20px 20px;
+  padding: 10px 0px 10px 0px;
+}
+.orderList h4 {
+  margin-right: 30px;
+}
+.orderList form {
+  display: flex;
+  align-items: center;
+}
+.orderList form input {
+  margin: 5px;
+  padding: 10px;
+}
+.orderList form button {
+  margin-left: 10px;
+  background: black;
+  padding: 3px;
+  border-radius: 5px;
+  color: white;
+  border: black solid 1px;
+  font-size: 14px;
+}
+.orderList h4 span {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.navOrders {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0px 10px;
+  padding: 20px 0px;
+}
+.navOrders li {
+  margin: 0px 50px 0px 0px;
+}
+.navOrders input {
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: black solid 1px;
+}

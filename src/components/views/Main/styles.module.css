@@ -1,0 +1,51 @@
+.main_layout {
+  grid-template-columns: 200px auto;
+}
+
+.products_grid {
+  display: grid;
+  margin: 1rem;
+  gap: 1rem;
+  grid-auto-rows: min-content;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
+}
+
+.pagination_container {
+  list-style-type: none;
+  display: flex;
+  grid-area: 2 / 2;
+  justify-content: center;
+  margin:20px;
+}
+
+.pagination_container li:hover {
+  cursor: pointer
+}
+
+.pagination_container li {
+  margin: 5px;
+  padding: 5px 10px;
+  background: black;
+  color: white;
+  border-radius: 5px;
+}
+.pagination_container li a {
+  color: white;
+  text-decoration: none !important;
+}
+.pagination_link_active a {
+  color: yellowgreen !important;
+}
+
+.pagination_previous:hover {
+  text-decoration: none;
+  cursor:pointer;
+}
+.pagination_link:hover {
+  text-decoration: none;
+  cursor:pointer;
+}
+.pagination_link_disabled:hover {
+  text-decoration: none;
+  cursor:pointer;
+}

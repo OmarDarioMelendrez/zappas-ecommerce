@@ -1,0 +1,39 @@
+.single_product .stars svg {
+  color: yellowgreen;
+  filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.7));
+  stroke: black;
+  stroke-width: 10;
+}
+
+.single_product h1 span { margin-left: 6px }
+.single_product {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: min-content 1fr 300px;
+  grid-template-rows: auto 50px auto auto;
+  gap: 10px;
+  grid-template-areas:
+    "name name name"
+    "stars stars stars"
+    "thumbnails image form"
+    "reviews reviews .";
+}
+.single_product .name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: name;
+}
+.single_product .name a {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: yellowgreen;
+  text-decoration-thickness: 2px;
+}
+
+.single_product .stars {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  grid-area: stars;
+}

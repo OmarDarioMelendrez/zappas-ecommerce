@@ -1,0 +1,16 @@
+.editcontainer {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.editbutton {
+  background-color: yellowgreen;
+  width: 5%;
+  margin: 10px;
+}
+
+.editinput {
+  width: 25%;
+  margin: 10px;
+}

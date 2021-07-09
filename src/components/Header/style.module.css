@@ -1,0 +1,87 @@
+header {
+  color: white;
+  display: grid;
+  grid-template-columns: max-content auto max-content;
+  align-items: center;
+  background: rgba(0 0 0 / 0.95);
+  gap: 30px;
+  padding: 30px;
+}
+
+header .zappas {
+  text-decoration: none;
+}
+
+header h1 {
+  font-size: 60px;
+  color: transparent;
+  -webkit-text-stroke: 2px white;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.search input {
+  font-size: 16px;
+  padding: 6px 22px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+  color: #fff;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.search svg {
+  font-size: 16px;
+  position: relative;
+  left: 1em;
+  color: white;
+}
+
+header span {
+  color: grey;
+}
+
+header span a {
+  text-underline-offset: 3px;
+  text-decoration: underline;
+  text-decoration-color: rgba(255 255 255 / 0);
+  transition: all 0.5s ease;
+}
+
+header span a:hover {
+  text-decoration-color: rgba(255 255 255 / 1);
+}
+
+header button {
+  font-size: 22px;
+  padding: 6px;
+  background: none;
+  border: none;
+  color: white;
+}
+
+header button:hover {
+  cursor: pointer;
+}
+
+header button span {
+  font-size: 12px;
+  position: relative;
+  left: -5px;
+  top: -12px;
+  padding: 3px 6px;
+  background-color: rgba(154 205 50 / 0.9);
+  text-shadow: 0px 1px 1px black;
+  border-radius: 3px;
+  color: white;
+  font-weight: 800;
+}
+
+header .userInfo {
+  color: white;
+  font-size: 22px;
+  padding: 6px;
+}

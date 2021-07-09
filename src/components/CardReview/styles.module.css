@@ -1,0 +1,19 @@
+.cardReviews {
+  padding: 25px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
+.cardReviews p {
+  margin-left: 10px;
+}
+
+.cardReviews h2 {
+  margin-left: 10px;
+}
+
+.cardReviews span {
+  margin-left: 20px;
+}
